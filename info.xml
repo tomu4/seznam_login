@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+  <name>Seznam Login Plugin</name>
+  <author>Tom Uchytil</author>
+<!-- Feel free to include your github repo here -->
+  <website>https://github.com/tomu4/Seznam-oauth-plugin</website>
+
+<!-- the version of the plugin iteself -->
+  <version>1.0.1</version>
+
+<!-- release date of THIS version -->
+  <release>March 16, 2022</release>
+
+<!-- the last version of UserSpice you tested the plugin with -->
+  <tested>5.4.0</tested>
+
+<!-- What does your plugin do? -->
+  <description>Use Seznam oAuth in your project. Allows users to both register and login with Seznam
+    and will merge accounts if multiple login methods are used from the same email address.
+  </description>
+
+  <!-- This is the launch button in the plugin manager. If it is blank or missing, Configure Plugin will show up. -->
+    <button>Seznam Login</button>
+</plugin>
