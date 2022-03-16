@@ -9,12 +9,13 @@ include "plugin_info.php";
 
 //all actions should be performed here.
 //you will probably be doing more than removing the item from the db
-$db->query("ALTER TABLE settings DROP plg_sez_sezlogin");
-$db->query("ALTER TABLE settings DROP plg_sez_sezid");
-$db->query("ALTER TABLE settings DROP plg_sez_sezsecret");
-$db->query("ALTER TABLE settings DROP plg_sez_sezcallback");
-$db->query("ALTER TABLE settings DROP plg_sez_sezfinalredir");
-$db->query("ALTER TABLE users DROP plg_sez_uid");
+//$db->query("ALTER TABLE settings DROP plg_sez_sezlogin");
+//$db->query("ALTER TABLE settings DROP plg_sez_sezid");
+//$db->query("ALTER TABLE settings DROP plg_sez_sezsecret");
+//$db->query("ALTER TABLE settings DROP plg_sez_sezcallback");
+//$db->query("ALTER TABLE settings DROP plg_sez_sezfinalredir");
+//$db->query("ALTER TABLE users DROP plg_sez_uid");
+
 
 $db->query("DELETE FROM us_plugins WHERE plugin = ?",array($plugin_name));
 deRegisterHooks($plugin_name);
